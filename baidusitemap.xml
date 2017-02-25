@@ -5,7 +5,7 @@
     
   <url>
     <loc>http://yoursite.com/2017/02/25/new/</loc>
-    <lastmod>2017-02-25T08:03:00.897Z</lastmod>
+    <lastmod>2017-02-25T10:01:39.377Z</lastmod>
     <data>
         <display>
         <title>new</title>
@@ -20,5 +20,20 @@
     
     
     
+    
+  <url>
+    <loc>http://yoursite.com/2017/02/23/index/</loc>
+    <lastmod>2017-02-23T11:37:01.233Z</lastmod>
+    <data>
+        <display>
+        <title></title>
+        <pubTime>2017-02-23T11:27:30.706Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
     
 </urlset>
