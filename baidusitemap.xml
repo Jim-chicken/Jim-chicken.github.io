@@ -3,17 +3,13 @@
 
 
     
-    
-    
-    
-    
   <url>
-    <loc>http://yoursite.com/2017/02/23/hello-world/</loc>
-    <lastmod>2017-02-23T08:37:07.465Z</lastmod>
+    <loc>http://yoursite.com/2017/02/25/new/</loc>
+    <lastmod>2017-02-25T08:03:00.897Z</lastmod>
     <data>
         <display>
-        <title>Hello World</title>
-        <pubTime>2017-02-23T08:37:07.464Z</pubTime>
+        <title>new</title>
+        <pubTime>2017-02-25T07:40:55.000Z</pubTime>
         
          
            
@@ -21,4 +17,23 @@
     </data>
     </url>
 
+    
+    
+    
+    
+  <url>
+    <loc>http://yoursite.com/2017/02/23/index/</loc>
+    <lastmod>2017-02-23T11:37:01.233Z</lastmod>
+    <data>
+        <display>
+        <title></title>
+        <pubTime>2017-02-23T11:27:30.706Z</pubTime>
+        
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
 </urlset>
