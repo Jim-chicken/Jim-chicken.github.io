@@ -4,6 +4,57 @@
   
     
     <entry>
+      <title><![CDATA[设计模式-简单工厂]]></title>
+      <url>http://yoursite.com/2017/03/10/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F-%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82/</url>
+      <content type="html"><![CDATA[<p>先创建一个抽象类</p>
+<pre><code>public interface Car{
+    void run();
+}
+</code></pre><p>再创建一个Audi实现类</p>
+<pre><code>public class Audi implements Car{
+    public void run(){
+            System.out.println(&quot;奥迪汽车&quot;);
+        }
+}
+</code></pre><p>再创建一个baoma实现类</p>
+<pre><code>    public class baoma implements Car{
+    public void run(){
+            System.out.println(&quot;宝马汽车&quot;);
+        }
+}
+</code></pre><p>创建一个工厂类CarFactory</p>
+<pre><code>public class CarFactory{
+    public static Car createCar(String type ){
+        if(&quot;奥迪&quot;.equasl(type)){
+            return new Audi();
+        }else(&quot;宝马&quot;.equasl(type)){
+            return new baoma();    
+            }
+        return null;
+    }
+}
+</code></pre><p>在创建一个调用者</p>
+<pre><code>public class Client {
+    public static void main (String[] args ){
+        Car c1 = CarFactory.createCar(&quot;奥迪&quot;)
+        Car c1 = CarFactory.createCar(&quot;宝马&quot;)
+
+        c1.run();
+        c2.run();
+        }
+    }
+</code></pre>]]></content>
+      
+        
+        <tags>
+            
+            <tag> 设计模式 </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[Story]]></title>
       <url>http://yoursite.com/2017/02/27/Story%20/</url>
       <content type="html"><![CDATA[<div><br>    <center><br>        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=33856282&auto=1&height=66"><br>        </iframe><br>        <br>    </center><br></div>

@@ -71,7 +71,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="设计模式," />
 
 
 
@@ -87,13 +87,49 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="categories">
-<meta property="og:url" content="http://yoursite.com/categories/index.html">
+<meta name="description" content="先创建一个抽象类
+public interface Car{
+    void run();
+}
+再创建一个Audi实现类
+public class Audi implements Car{
+    public void run(){
+            System.out.println(&amp;quot;奥迪汽车&amp;quot;);
+        }
+}
+再创建一个baoma实现类
+    p">
+<meta property="og:type" content="article">
+<meta property="og:title" content="设计模式-简单工厂">
+<meta property="og:url" content="http://yoursite.com/2017/03/10/设计模式-简单工厂/index.html">
 <meta property="og:site_name" content="Zhn1">
-<meta property="og:updated_time" content="2017-02-24T14:35:26.371Z">
+<meta property="og:description" content="先创建一个抽象类
+public interface Car{
+    void run();
+}
+再创建一个Audi实现类
+public class Audi implements Car{
+    public void run(){
+            System.out.println(&amp;quot;奥迪汽车&amp;quot;);
+        }
+}
+再创建一个baoma实现类
+    p">
+<meta property="og:updated_time" content="2017-03-09T16:21:39.978Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="categories">
+<meta name="twitter:title" content="设计模式-简单工厂">
+<meta name="twitter:description" content="先创建一个抽象类
+public interface Car{
+    void run();
+}
+再创建一个Audi实现类
+public class Audi implements Car{
+    public void run(){
+            System.out.println(&amp;quot;奥迪汽车&amp;quot;);
+        }
+}
+再创建一个baoma实现类
+    p">
 
 
 
@@ -121,19 +157,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/categories/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/03/10/设计模式-简单工厂/"/>
 
 
 
 
 
-  <title>
-  
-
-  
-    categories | Zhn1
-  
-</title>
+  <title> 设计模式-简单工厂 | Zhn1 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -158,7 +188,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -295,25 +325,195 @@
             
 
   <div id="posts" class="posts-expand">
-  <header class="post-header">
+    
 
-	<h1 class="post-title" itemprop="name headline">categories</h1>
+  
 
+  
+  
+  
 
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/03/10/设计模式-简单工厂/">
 
-</header>
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="jan">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/8081.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Zhn1">
+    </span>
 
     
-    
-      <div class="category-all-page">
-        <div class="category-all-title">
-            暂无分类
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                设计模式-简单工厂
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-03-10T00:00:06+08:00">
+                2017-03-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2017/03/10/设计模式-简单工厂/" class="leancloud_visitors" data-flag-title="设计模式-简单工厂">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数 </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
         </div>
-        <div class="category-all">
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>先创建一个抽象类</p>
+<pre><code>public interface Car{
+    void run();
+}
+</code></pre><p>再创建一个Audi实现类</p>
+<pre><code>public class Audi implements Car{
+    public void run(){
+            System.out.println(&quot;奥迪汽车&quot;);
+        }
+}
+</code></pre><p>再创建一个baoma实现类</p>
+<pre><code>    public class baoma implements Car{
+    public void run(){
+            System.out.println(&quot;宝马汽车&quot;);
+        }
+}
+</code></pre><p>创建一个工厂类CarFactory</p>
+<pre><code>public class CarFactory{
+    public static Car createCar(String type ){
+        if(&quot;奥迪&quot;.equasl(type)){
+            return new Audi();
+        }else(&quot;宝马&quot;.equasl(type)){
+            return new baoma();    
+            }
+        return null;
+    }
+}
+</code></pre><p>在创建一个调用者</p>
+<pre><code>public class Client {
+    public static void main (String[] args ){
+        Car c1 = CarFactory.createCar(&quot;奥迪&quot;)
+        Car c1 = CarFactory.createCar(&quot;宝马&quot;)
+
+        c1.run();
+        c2.run();
+        }
+    }
+</code></pre>
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/设计模式/" rel="tag"># 设计模式</a>
           
         </div>
-      </div>
-    
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/02/27/Story /" rel="next" title="Story">
+                <i class="fa fa-chevron-left"></i> Story
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
           
@@ -546,6 +746,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
